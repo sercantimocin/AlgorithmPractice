@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayAndString", "ArrayAndString", "{E5998F59-EEA1-45AE-BBAA-5ECD99B5DE61}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasAllCharctersUnique", "HasAllCharctersUnique\HasAllCharctersUnique.csproj", "{1C5EDE4A-854A-4489-8CD0-6424AB586D9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAndStrings", "HasAllCharctersUnique\ArrayAndStrings.csproj", "{1C5EDE4A-854A-4489-8CD0-6424AB586D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{1C5EDE4A-854A-4489-8CD0-6424AB586D9B} = {E5998F59-EEA1-45AE-BBAA-5ECD99B5DE61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C62964BE-30C9-4A49-82C8-AD44676AF77F}
