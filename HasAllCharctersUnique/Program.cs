@@ -7,8 +7,13 @@ namespace HasAllCharctersUnique
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("1.1");
             var r = HasAllCharacters("AAAAAABCDEFGHIJLMNOPQRSTUVWXYZZZZZ");
             Console.WriteLine(r);
+
+            Console.WriteLine("1.2");
+            ReverseStr("sercan");
+
             var k = Console.ReadKey();
         }
 
@@ -25,6 +30,15 @@ namespace HasAllCharctersUnique
             }
 
             return alphabet.SequenceEqual(existChars);
+        }
+
+        //1.2 Write code to reverse a C-Style String(C-String means that “abcd” is represented as five characters, including the null character )
+        public static void ReverseStr(string str)
+        {
+            for (int i = (str.Length-1); i >= 0; i--)
+            {
+                Console.Write(str[i]);
+            }
         }
     }
 }
